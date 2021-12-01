@@ -18,7 +18,7 @@ stage("build") {
 
 steps {
 
-sh "docker build -t apacheserver -f apache/Dockerfile ."
+sh "docker build -t apacheserver -f Dockerfile ."
 
 }
 
