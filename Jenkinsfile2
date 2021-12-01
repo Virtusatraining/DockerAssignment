@@ -8,7 +8,7 @@ stage("create clone"){
 
 steps{
 
-  git branch: 'main', url: 'https://github.com/Virtusatraining/Assignment_task.git'
+  git branch: 'main', url: 'https://github.com/Virtusatraining/DockerAssignment.git'
     }
 }
 
