@@ -6,7 +6,7 @@ LABEL VERSION="0.0.1"
 
 
 
-LABEL MAINTAINER="gsivakumar1893@gmail.com"
+LABEL MAINTAINER="meenupriya1898@gmail.com"
 
 
 
