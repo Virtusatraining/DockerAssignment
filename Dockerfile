@@ -18,10 +18,6 @@ RUN apt-get -y install apache2
 
 
 
-COPY apache/index.html /var/www/html/
-
-
-
 EXPOSE 80
 
 
