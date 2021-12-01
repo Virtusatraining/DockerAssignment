@@ -8,11 +8,11 @@ stage("create clone"){
 
 steps{
 
-git credentialsId: 'hub', url: 'https://github.com/Virtusatraining/DockerAssignment.git'
-
+  git branch: 'main', url: 'https://github.com/Virtusatraining/Assignment_task.git'
+    }
 }
 
-}
+
 
 stage("build") {
 
