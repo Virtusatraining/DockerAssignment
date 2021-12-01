@@ -8,7 +8,7 @@ stage("create clone"){
 
 steps{
 
-git credentialsId: 'hub', url: 'https://github.com/SIVAKUMAR1893/DOCKER_TUTORIAL.git'
+git credentialsId: 'hub', url: 'https://github.com/Virtusatraining/DockerAssignment.git'
 
 }
 
