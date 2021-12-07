@@ -5,7 +5,7 @@ agent any
 stages {
 
 stage("create clone"){
-
+// This stage will clone the git repository
 steps{
 
   git branch: 'main', url: 'https://github.com/Virtusatraining/DockerAssignment.git'
@@ -15,7 +15,7 @@ steps{
 
 
 stage("build") {
-
+// This stage will build the docker file
 steps {
 
 sh "docker build -t apacheserver -f Dockerfile ."
